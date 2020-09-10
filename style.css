@@ -1,0 +1,803 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  transition: 0.5s;
+}
+
+/*======================================REPATE UES CLASS========================================*/
+.contener {
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.red {
+  color: red;
+}
+
+.rev-star {
+  text-align: center;
+  color: #ffe212;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.prar-quote .fas {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border: 2px solid #fff;
+  line-height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 192px;
+  color: white;
+  font-size: 17px;
+}
+
+/*======================================CODING STARIT ========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================HEADER SECTION START========================================*/
+#header {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  margin-top: 30px;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul {
+  line-height: 100px;
+}
+
+.nav ul li {
+  float: left;
+  list-style: none;
+}
+
+.nav ul li a {
+  color: #426396;
+  font-size: 20px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  color: rgb(251, 0, 0);
+  text-decoration: underline double 2px rgb(0, 225, 255);
+  -webkit-text-decoration: underline double 2px rgb(0, 225, 255);
+  -moz-text-decoration: underline double 2px rgb(0, 225, 255);
+  transition: 0.5s;
+}
+
+.Product-title {
+  margin-top: 80px;
+  width: 640px;
+}
+
+.Product-title h1 {
+  color: #0a1f44;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.red {
+  color: red;
+  margin-right: 10px;
+}
+
+.Product-title p {
+  color: #0a1f44;
+  font-size: 20px;
+  margin-top: 50px;
+  width: 410px;
+  text-align: left;
+  word-spacing: 4px;
+  line-height: 27px;
+}
+
+.btn-item {
+  margin-top: 50px;
+  padding: 0px 10px;
+}
+
+.btn-free {
+  width: 140px;
+  height: 45px;
+  border-radius: 40px;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  background: red;
+  margin-right: 28px;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0px 5px 8px rgb(0, 0, 0, 0.5);
+}
+
+.btn-free:hover {
+  transform: translate(0, -5px);
+  box-shadow: 5px 8px 30px rgb(0, 251, 230);
+  transition: 0.3s;
+}
+
+.btn-premium {
+  width: 140px;
+  height: 45px;
+  border-radius: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  background: #0a1f44;
+  border: none;
+  box-shadow: 0px 5px 8px rgb(0, 0, 0, 0.5);
+}
+
+.btn-premium:hover {
+  transform: translate(0, -5px);
+  box-shadow: 5px 8px 30px rgb(8, 255, 255);
+  transition: 0.3s;
+}
+
+.Product-itme {
+  margin-top: 50px;
+  width: 500px;
+  text-align: left;
+}
+
+.Product-itme img {
+  width: 400px;
+}
+
+/*======================================HEADER SECTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================FUTURE SECTION START========================================*/
+.future-section {
+  background: red;
+}
+
+.bg {
+  background: #f8f8f8;
+}
+
+.features-section h5 {
+  text-align: center;
+  margin-top: 80px;
+  font-style: normal;
+}
+
+.features-section h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 38px;
+}
+
+.features-section p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 17px;
+  color: #0a1f44;
+  word-spacing: 4px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+/*======================================FUTURE SECTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================TECHNICAL SECTION START========================================*/
+.technical-section h5 {
+  text-align: center;
+  margin-top: 80px;
+  font-style: normal;
+}
+
+.technical-section h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 38px;
+}
+
+.technical-section p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 17px;
+  color: #0a1f44;
+  word-spacing: 4px;
+  line-height: 25px;
+  margin-bottom: 80px;
+}
+
+/*======================================TECHNICAL SECTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================PRODUCT SECTION START========================================*/
+.product-img {
+  max-width: 425px;
+  height: 100%;
+
+  padding: 10px;
+}
+
+.product-img img {
+  width: 400px;
+}
+
+.product-available {
+  width: 650px;
+}
+
+.col {
+  width: 250px;
+  height: 300px;
+  border: 2px solid #ddd;
+  float: left;
+  padding: 20px;
+  margin: 13px;
+  border-radius: 4px;
+  box-shadow: 7px 10px 5px rgba(191, 189, 189, 0.23);
+}
+
+.col:hover {
+  transform: translate(0, -5px);
+  box-shadow: -6px 10px 22px rgba(206, 194, 194, 0.23);
+  transition: 0.4s;
+}
+
+.col .av-it-logo {
+  text-align: center;
+  margin: 10 auto;
+  margin-bottom: 23px;
+}
+
+.col .av-it-logo .fas {
+  font-size: 30px;
+  color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+
+  border: 2px solid red;
+}
+
+.col .av-it-logo .fas:hover {
+  color: #fff;
+  background: red;
+  transition: 0.5s;
+}
+
+.col h3 {
+  text-align: center;
+  color: #0a1f44;
+}
+
+.col p {
+  text-align: center;
+  color: #0a1f44;
+}
+
+/*======================================PRODUCT SECTION START========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================ABOUT SECTION START========================================*/
+.about-us h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 38px;
+  color: #0a1f44;
+}
+
+.about-us p {
+  text-align: center;
+  margin-top: 30px;
+  color: #0a1f44;
+  line-height: 25px;
+  margin-bottom: 140px;
+}
+
+.abu-card {
+  margin-top: 60px;
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  float: left;
+  margin: 19px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 7px 10px 5px rgba(191, 189, 189, 0.23);
+}
+
+.card:hover {
+  box-shadow: -6px 10px 22px rgba(206, 194, 194, 0.23);
+  transform: translate(0, -12px);
+  transition: 0.5s;
+}
+
+.card img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: -80px;
+  border: 5px solid #fff;
+}
+
+.card-name {
+  color: #0a1f44;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.card-wabe {
+  margin-bottom: 10px;
+}
+
+.card-wabe a {
+  color: rgb(58, 51, 51);
+  text-decoration: none;
+}
+
+.card-info {
+  color: #0a1f44;
+  justify-content: center;
+  line-height: 22px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.card-quote .fas {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background: red;
+  border-radius: 50%;
+  line-height: 60px;
+  margin: 20px;
+}
+
+/*======================================ABOUT SECTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================PRICING SECTION START========================================*/
+.pricing-main {
+}
+
+.pricing-main h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 38px;
+  color: #0a1f44;
+}
+
+.pricing-main p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 17px;
+  color: #0a1f44;
+  word-spacing: 4px;
+  line-height: 25px;
+  margin-bottom: 80px;
+}
+
+.pricing-head {
+  border: 2px solid red;
+  margin: 0px 10px;
+  height: 700px;
+  /* overflow: hidden; */
+}
+
+.paricing-info {
+  width: 700px;
+  height: 700px;
+  background: red;
+  text-align: center;
+}
+
+.paricing-info img {
+  margin-top: 150px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.paricing-info .info {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 25px;
+  padding: 0px 50px;
+}
+
+.paricing-bio h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prar-bio-email a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*======================================PRICING SECTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+
+/*======================================PRICING SECTION END========================================*/
+.shipping {
+  height: 100%;
+  width: 416px;
+  overflow: hidden;
+}
+
+.shipp-content h4 {
+  color: #0a1f44;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 22px;
+}
+
+.offer {
+  width: 100%;
+  height: 60px;
+  margin-left: 112px;
+  margin-top: 20px;
+}
+
+.offer-main-price {
+  font-size: 37px;
+  line-height: 51px;
+  font-weight: normal;
+  color: #54637d;
+}
+
+.offer-price {
+  height: 46px;
+  width: 108px;
+  position: absolute;
+  margin: 1px 12px;
+  background: #ff0404;
+  border-radius: 35px;
+  text-align: center;
+  line-height: 47px;
+  font-size: 22px;
+  color: white;
+}
+
+.price {
+  text-align: center;
+  font-size: 73px;
+  padding: 11px 0px;
+  color: rgb(10, 31, 68);
+  font-weight: 600;
+}
+
+.shipp-content p {
+  font-weight: bold;
+  color: #0a1f44;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.shipp-content ul {
+  padding: 13px 1px;
+  text-align: left;
+  margin-left: 77px;
+  list-style: none;
+}
+
+.shipp-content li {
+  color: #0a1f44;
+  padding: 7px 0px;
+}
+
+.shipp-content li i {
+  color: #48ca99;
+  padding: 0px 8px;
+}
+
+.shipp-content .btn {
+  height: 45px;
+  width: 202px;
+  text-align: center;
+  background: red;
+  color: white;
+  line-height: 45px;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-top: 52px;
+  box-shadow: 0px 3px 6px -1px rgb(0, 0, 0, 0.5);
+}
+
+.shipp-content .btn:hover {
+  transform: translate(0, -2px);
+  box-shadow: 0px 3px 6px -1px red;
+  transition: 0.5s;
+}
+
+.shipp-content .btn:active {
+  transform: none;
+  transition: 0.5s;
+  box-shadow: 0px 3px 6px -1px rgb(12, 178, 255);
+}
+
+.end-offer-left {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #0a1f44;
+}
+
+/*======================================ABOUT SECTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================AKSHAD QUSTION START========================================*/
+
+.qustion-asked {
+  margin: 80px 0px;
+}
+
+.qustion-asked h1 {
+  font-size: 35px;
+  color: #0a1f44;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.qustion-item {
+  width: 490px;
+  height: 200px;
+  float: left;
+  margin-left: 78px;
+  margin-bottom: 30px;
+}
+
+.qustion-item h3 {
+  color: #0a1f44;
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+
+.qustion-item p {
+  justify-content: left;
+  width: 380px;
+  text-align: justify;
+  color: #0a1f44;
+}
+
+/*======================================AKSHAD QUSTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*======================================CONTACTE SECTION START========================================*/
+.contact-mine {
+  border: 2px solid #e6e9ec;
+  height: 840px;
+}
+
+.contact-bg {
+  height: 840px;
+  width: 50%;
+  float: left;
+  background: #f8f8f8;
+}
+
+.get-touch {
+  margin-left: 15%;
+}
+
+.contact-bg-2 {
+  background: #fff;
+}
+
+.get-touch-title h1 {
+  font-size: 33px;
+  color: #0a1f44;
+  margin-top: 80px;
+}
+
+.get-touch-title p {
+  color: #0a1f44;
+  font-size: 17px;
+  margin-top: 25px;
+  width: 550px;
+  line-height: 25px;
+}
+
+.collaborate h4 {
+  font-size: 20px;
+  color: #0a1f44;
+  margin-top: 50px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.collaborate li {
+  list-style: none;
+}
+
+.collaborate li a {
+  text-decoration: none;
+  color: #0a1f44;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+div#form-bg h1 {
+  color: #0a1f44;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 35px;
+  margin-bottom: 42px;
+}
+#form-bg p {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 457px;
+  color: #0a1f44;
+  margin-left: 115px;
+  line-height: 25px;
+}
+#form-bg input[type="name"],
+input[type="email"] {
+  padding-left: 18px;
+  border: 2px solid #ececec;
+  height: 55px;
+  margin-left: 62px;
+  width: 490px;
+  margin-bottom: 31px;
+  border-radius: 5px;
+  color: #a3aab0;
+  font-weight: 300;
+  font-size: 17px;
+  outline: none;
+}
+
+#form-bg #message {
+  padding-top: 10px;
+  padding-left: 18px;
+  border: 2px solid #ececec;
+  height: 118px;
+  margin-left: 62px;
+  width: 490px;
+  margin-bottom: 31px;
+  border-radius: 5px;
+  color: #a3aab0;
+  font-weight: 300;
+  font-size: 17px;
+  outline: none;
+}
+.send-mess-btn {
+  padding-left: 20px;
+  border: none;
+  height: 55px;
+  margin-left: 73px;
+  width: 490px;
+  margin-bottom: 31px;
+  border-radius: 30px;
+  color: white;
+  background: red;
+  font-weight: 300;
+  font-size: 17px;
+  outline: none;
+  text-transform: uppercase;
+  margin-top: 47px;
+}
+
+/*======================================CONTACTE QUSTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*====================================== SECTION START========================================*/
+.bay-now h1 {
+  text-align: center;
+  color: rgb(10, 31, 68);
+  font-size: 34px;
+  margin-top: 70px;
+}
+.bay-now p {
+  text-align: center;
+  color: #0a1f44;
+  font-size: 17px;
+  line-height: 25px;
+  margin: 20px 0px;
+}
+.bay-now-btn {
+  width: 120px;
+  height: 40px;
+  background: red;
+  color: #fff;
+  margin-left: 510px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/*======================================CONTACTE QUSTION END========================================*/
+/*---------------------------------------------------------------------------------------------*/
+/*====================================== FOOTER SECTION START========================================*/
+.footer-main {
+  background: #0a1f44;
+}
+.footer {
+  overflow: hidden;
+  width: 1140px;
+  margin: 0 auto;
+}
+.foot-nav {
+  float: right;
+}
+.foot-nav ul {
+  list-style: none;
+}
+.foot-nav ul li {
+  float: left;
+  padding: 42px 3px;
+}
+.foot-nav ul li a {
+  text-decoration: none;
+  color: #9ebbc8;
+  margin: 0px 15px;
+  padding: 0px 15px;
+}
+/*===============*/
+.footer-bottom-bg {
+  background: #0a1f44;
+  border-top: 2px solid #1a2e50;
+}
+.footer-bottom {
+  height: 80px;
+}
+/*===================*/
+.footer-bottom {
+  padding: 20px 0px;
+}
+.socal-icon {
+  float: left;
+}
+.socal-icon ul li {
+  list-style: none;
+  float: left;
+}
+.socal-icon ul li a {
+  color: #ddd;
+  padding: 0px 10px;
+}
+
+.copy-right p {
+  float: right;
+  width: 300px;
+  font-size: 14px;
+  color: #fff;
+}
